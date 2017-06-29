@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class ge extends JFrame{
+	ge(){
+		setTitle ("Graphics1");
+		setSize (2160,1780);
+			setVisible (true);
+}
+	public static void main (String[]args){
+		new ge();
+	}
+}

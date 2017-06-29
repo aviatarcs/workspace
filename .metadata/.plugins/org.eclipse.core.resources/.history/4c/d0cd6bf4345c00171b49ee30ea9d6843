@@ -1,0 +1,18 @@
+package Class;
+
+import java.util.Scanner;
+
+public class RPS {
+	public static void main (String[]args){
+
+		String r = "rock";
+		String p = "paper";
+		String s = "scissors";
+		
+		System.out.println("Welcome to Rock paper scissors.  Choose R P or S");
+		Scanner input = new Scanner(System.in);
+		String x = input.next();
+		
+	
+	}
+}

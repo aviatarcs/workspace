@@ -1,0 +1,6 @@
+package Class;
+
+public class MagicTrick {
+	Scanner input = new Scanner(System.in);
+
+}

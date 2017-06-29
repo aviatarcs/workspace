@@ -1,0 +1,28 @@
+import java.util.Random;
+import java.util.Scanner;
+public class RandomNumbers {
+	public static void main (String[]args){
+		Random rand = new Random();
+		System.out.print("Pick a number 0 through 10.");
+		int n = rand.nextInt(11);
+		Scanner keyboard = new Scanner(System.in);
+		int x = keyboard.nextInt();
+		if (x < n){
+			System.out.print("Too small. Try again.");
+		}
+		else if (x > n){
+			System.out.print("Too big.  Try again.");
+			if (x = n) {
+				System.out.print("You won!");
+			}
+			else if (x < 0 x > 10) {
+				System.out.print("Don't cheat!");
+			
+			
+			}
+			
+			
+		}
+		
+	}
+}

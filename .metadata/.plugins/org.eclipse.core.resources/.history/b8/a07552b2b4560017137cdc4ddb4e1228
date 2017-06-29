@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+public class ge extends JFrame{
+	ge(){
+		setTitle ("Geometry Dash");
+		setSize (1,1);
+			setVisible (true);
+}
+	public static void main (String[]args){
+		new ge();
+	}
+}

@@ -1,0 +1,10 @@
+public class Graphics1 extends JFrame{
+	Graphics1(){
+		setTitle("Graphics1");
+		setSize(400,300);
+			setVisible(True);
+}
+public static void main (String[]args){
+	new Graphics1();
+	}
+}

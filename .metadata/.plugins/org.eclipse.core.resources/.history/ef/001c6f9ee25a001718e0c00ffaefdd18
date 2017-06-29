@@ -1,0 +1,4 @@
+
+public class Random {int x = rand.nextInt(1001);
+system.out.println(int x);
+}

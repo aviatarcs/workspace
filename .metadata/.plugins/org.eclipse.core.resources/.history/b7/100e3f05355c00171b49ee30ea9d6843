@@ -1,0 +1,33 @@
+		import java.awt.Color;
+		import java.awt.Font;
+		import java.awt.Graphics;
+
+		import javax.swing.JFrame;
+		import javax.swing.JPanel;
+
+		public class RPS extends JFrame{
+			ge(){
+				setTitle ("Best Game Evr");
+				setSize (1920,720);
+				MyPanel p = new MyPanel();
+				add(p);
+					setVisible (true);
+		}
+			public static void main (String[]args){
+				new RPS();
+			}
+			private class MyPanel extends JPanel{
+				public void paintComponent (Graphics g){
+					g.drawLine(50, 50, 350, 200);
+					g.drawLine(350, 50, 50, 200);
+					g.drawLine(50, 50, 200, 350);
+					g.drawLine(350, 50, 200, 350);
+					g.drawLine(50,350,350,200);
+					g.drawLine(350, 350, 50, 200);
+					g.drawLine(50, 350, 200, 50);
+					g.drawLine(350, 350, 200, 50);
+					g.drawOval(50, 50, 300, 300);
+		
+	}
+}
+		}

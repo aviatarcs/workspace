@@ -1,0 +1,80 @@
+package Class;
+
+import java.awt.Color;
+		import java.awt.Font;
+		import java.awt.Graphics;
+
+		import javax.swing.JFrame;
+		import javax.swing.JPanel;
+
+		public class RPS extends JFrame{
+			RPS(){
+				setTitle ("Find a yellow circle");
+				setSize (1920,720);
+				MyPanel p = new MyPanel();
+				add(p);
+					setVisible (true);
+		}
+			public static void main (String[]args){
+				new RPS();
+			}
+			private class MyPanel extends JPanel{
+				public void paintComponent (Graphics g){
+					g.drawLine(50, 50, 350, 200);
+					g.drawLine(350, 50, 50, 200);
+					g.drawLine(50, 50, 200, 350);
+					g.drawLine(350, 50, 200, 350);
+					g.drawLine(50,350,350,200);
+					g.drawLine(350, 350, 50, 200);
+					g.drawLine(50, 350, 200, 50);
+					g.drawLine(350, 350, 200, 50);
+					g.drawOval(50, 50, 300, 300);
+					g.drawLine(100, 50, 350, 200);
+					g.drawLine(35, 50, 50, 200);
+					g.drawLine(50, 50, 200, 350);
+					g.drawLine(350, 50, 20, 30);
+					g.drawLine(50,350,350,20);
+					g.drawLine(350, 50, 50, 200);
+					g.drawLine(50, 50, 200, 50);
+					g.drawLine(350, 350, 20, 50);
+					g.drawOval(5, 50, 300, 30);
+					g.drawLine(50, 50, 350, 20);
+					g.drawLine(350, 50, 50, 200);
+					g.drawLine(50, 50, 200, 350);
+					g.drawLine(350, 50, 200, 350);
+					g.drawLine(50,350,30,0);
+					g.drawLine(30, 350, 50, 200);
+					g.drawLine(50, 350, 20, 50);
+					g.drawLine(350, 350, 200, 50);
+					g.drawOval(50, 50, 300, 300);
+					g.drawLine(100, 50, 350, 200);
+					g.drawLine(35, 50, 50, 200);
+					g.drawLine(50, 50, 200, 350);
+					g.drawLine(35, 50, 0, 30);
+					g.drawLine(50,350,350,20);
+					g.drawLine(30, 50, 50, 200);
+					g.drawLine(50, 50, 200, 50);
+					g.drawLine(350, 350, 20, 50);
+					g.drawOval(5, 50, 300, 300);
+					g.drawLine(100, 350, 50, 200);
+					g.drawLine(50, 55, 20, 50);
+					g.drawOval(5, 5, 30, 300);
+					g.drawLine(100, 350, 50, 2);
+					g.drawLine(50, 55, 20, 0);
+					g.drawOval(100, 50, 300, 300);
+					g.drawOval(100, 100, 300, 300);
+					g.drawLine(64, 87, 23, 56);
+					g.drawLine(87,53,21,89);
+					g.drawLine(64, 87, 2, 56);
+					g.drawLine(87,53,26,9);
+					g.drawLine(13, 86, 24, 24);
+					g.drawLine(64, 87, 23, 6);
+					g.drawLine(87,53,21,9);
+					g.drawLine(64, 10, 2, 56);
+					g.drawLine(87,33,21,9);
+					g.drawLine(103, 66, 204, 24);
+					g.drawOval(5, 5, 340, 3);
+
+			}
+			}
+		}
